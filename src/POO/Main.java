@@ -24,6 +24,7 @@ Respostas questão 1 do trabalho:
 
 – qual a implicação do método getCusto ser abstract?
     Sendo o método getCusto abstrato, ele exige que as classes filhas, que dependem da classe mãe Bagagem, implementem esse método.
+    Teste
 
 
  */
