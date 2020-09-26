@@ -20,11 +20,10 @@ Respostas questão 1 do trabalho:
 – qual a implicação da classe Bagagem ser abstract?
     Sendo a classe Bagagem abstrata (mãe), essa serve como modelo para as demais sub-classes (filhas).
     Isto é, trata-se de um classe geral, que deve ser especificada nas classes filhas.
-    Como é abstrata, não se pode instânciar.
+    Como é abstrata, não se pode instânciar também.
 
 – qual a implicação do método getCusto ser abstract?
     Sendo o método getCusto abstrato, ele exige que as classes filhas, que dependem da classe mãe Bagagem, implementem esse método.
-    Teste
 
 
  */
@@ -61,7 +60,6 @@ public class Main {
         ListaBags.inserir(b9);
         ListaBags.inserir(b10);
 
-
         //Custo de cada tipo de bagagem:
         System.out.printf("R$ %.2f%n", (b1.getCusto()));
         System.out.printf("R$ %.2f%n", (b6.getCusto()));
@@ -76,7 +74,6 @@ public class Main {
         System.out.println("R$ " + b10.getValorSeguro());
 
         System.out.println("\n");
-
 
         //Listando todas as bagagens da lista:
         ListaBags.listarBagagens();
