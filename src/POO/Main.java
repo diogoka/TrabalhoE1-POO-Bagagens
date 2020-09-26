@@ -69,6 +69,14 @@ public class Main {
 
         System.out.println("\n");
 
+        //Valor do seguro das bagagens frágeis:
+
+        System.out.println("R$ " + b8.getValorSeguro());
+        System.out.println("R$ " + b9.getValorSeguro());
+        System.out.println("R$ " + b10.getValorSeguro());
+
+        System.out.println("\n");
+
 
         //Listando todas as bagagens da lista:
         ListaBags.listarBagagens();
@@ -94,14 +102,14 @@ public class Main {
         System.out.println("\nAntes da ordenação por peso");
         ListaBags.listarBagagens();
         System.out.println("\nDepois da ordenação por peso");
-        ListaBags.ordenaPorPeso(ListaBags.getBagagens());
+        ListaBags.ordenaPorPeso(ListaBags.getLista());
         ListaBags.listarBagagens();
 
         //Ordenando pelo custo:
         System.out.println("\nAntes da ordenação por custo");
         ListaBags.custoTotal();
         System.out.println("\nDepois da ordenação por custo");
-        ListaBags.ordenaPorCusto(ListaBags.getBagagens());
+        ListaBags.ordenaPorCusto(ListaBags.getLista());
         ListaBags.custoTotal();
 
 

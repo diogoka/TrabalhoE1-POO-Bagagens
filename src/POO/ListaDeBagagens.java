@@ -17,7 +17,7 @@ public class ListaDeBagagens implements Comparator<Bagagem> {
 
     }
 
-    public ArrayList<Bagagem> getBagagens(){
+    public ArrayList<Bagagem> getLista(){
         return Bagagens;
     }
 
